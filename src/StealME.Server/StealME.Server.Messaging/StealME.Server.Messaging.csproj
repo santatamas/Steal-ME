@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F99AF960-2BB6-4AFD-A30C-A14C67EFC881}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StealME.Server.Messaging</RootNamespace>
+    <AssemblyName>StealME.Server.Messaging</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enums\TrackerState.cs" />
+    <Compile Include="Exceptions\UnknownMessageException.cs" />
+    <Compile Include="Messages\TrackerStateMessage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Enums\CommandType.cs" />
+    <Compile Include="Enums\GetRequestType.cs" />
+    <Compile Include="Interfaces\IMessageListener.cs" />
+    <Compile Include="Enums\MessageType.cs" />
+    <Compile Include="Enums\SetRequestType.cs" />
+    <Compile Include="Interfaces\IProtocol.cs" />
+    <Compile Include="Requests\AuthRequest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Requests\CommandRequest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Requests\GetRequest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Requests\PingRequest.cs" />
+    <Compile Include="Requests\SetRequest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Requests\TestRequest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Responses\ACKResponse.cs" />
+    <Compile Include="Responses\AuthResponse.cs" />
+    <Compile Include="Messages\LocationMessage.cs" />
+    <Compile Include="Responses\PingResponse.cs" />
+    <Compile Include="Responses\ProtocolVersionResponse.cs" />
+    <Compile Include="Responses\StatusResponse.cs" />
+    <Compile Include="Responses\TestResponse.cs" />
+    <Compile Include="TypeResolver.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StealME.Server.Networking\StealME.Server.Networking.csproj">
+      <Project>{A4AF283C-F76C-4D8C-8B79-8375D479F6CA}</Project>
+      <Name>StealME.Server.Networking</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="EventArgs\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

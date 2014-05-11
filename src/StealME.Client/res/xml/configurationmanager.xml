@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/set_tab_location">
+        <CheckBoxPreference android:key="use_gps" android:title="@string/set_use_gps" android:defaultValue="true"/>
+        <CheckBoxPreference android:key="use_network_provider" android:title="@string/set_use_network" android:defaultValue="true"/>
+        <EditTextPreference android:title="@string/set_min_loc_polling" android:key="minimum_location_polling_interval" android:summary="(seconds)" android:defaultValue="10"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/set_tab_remote_control">
+        <EditTextPreference android:title="@string/set_controller_phone" android:key="controller_phone"/>
+        <EditTextPreference android:title="@string/set_tracking_ip" android:key="tracker_server_ip" android:defaultValue="192.168.0.105"/>
+        <CheckBoxPreference android:key="enable_sms" android:title="@string/set_enable_sms" android:defaultValue="false"/>
+        <EditTextPreference android:title="@string/set_tracking_port" android:key="tracker_server_port" android:defaultValue="4444"/>	
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/set_tab_sensor">
+        <EditTextPreference android:title="@string/set_accelero_sensitivity" android:key="accelero_sensitivity" android:summary="(0-100)" android:defaultValue="60"/>
+        <CheckBoxPreference android:key="enable_accelero" android:title="@string/set_enable_accelero" android:defaultValue="true"/>
+    </PreferenceCategory>
+</PreferenceScreen>

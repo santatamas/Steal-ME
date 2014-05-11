@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1004]C:\Android\StealME.Server\StealME.Server.Core.Tests\bin\Debug\StealME.Server.Core.Tests.dll</TopNode>
+  <SelectedNode>[0-1003]StealME.Server.Core.Tests.BLLTests.TestCommandCRUD</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1004]C:\Android\StealME.Server\StealME.Server.Core.Tests\bin\Debug\StealME.Server.Core.Tests.dll" Expanded="true" />
+    <Node UniqueName="[0-1005]StealME" Expanded="true" />
+    <Node UniqueName="[0-1006]StealME.Server" Expanded="true" />
+    <Node UniqueName="[0-1007]StealME.Server.Core" Expanded="true" />
+    <Node UniqueName="[0-1008]StealME.Server.Core.Tests" Expanded="true" />
+    <Node UniqueName="[0-1000]StealME.Server.Core.Tests.BLLTests" Expanded="true" />
+  </Nodes>
+</VisualState>

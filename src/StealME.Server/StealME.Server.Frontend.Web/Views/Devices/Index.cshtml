@@ -1,0 +1,33 @@
+﻿@using StealME.Server.Data.DAL
+
+@{
+    ViewBag.Title = "Home Page";
+}
+<script>
+    $(document).ready(function () {
+        setInterval('UpdateDevicePanels();', 5000);
+    });
+</script>
+
+<h2><a href="DevClient\StealMe.Client.apk">Download latest Android Client</a></h2>
+
+@if (ViewBag.Licences != null)
+{
+<text>@ViewBag.Licences.Length Device(s) avaliable.</text>
+    
+     foreach (Licence lic in ViewBag.Licences)
+     {
+         Html.RenderPartial("Device", lic);
+     }
+}
+else
+{
+    <text>No Devices avaliable.</text>
+}
+ 
+ 
+<div style="border:1px solid #696969;margin:5px;padding:5px;float:left; height:90px;width:290px;text-align:center;">
+    @Html.ActionLink("Add Device", "Add", "Devices",null, new { style = "margin:0 auto;" })
+</div>   
+<div style="clear:both;"></div>
+

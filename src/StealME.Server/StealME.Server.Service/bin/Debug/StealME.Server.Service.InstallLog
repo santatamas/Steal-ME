@@ -1,0 +1,603 @@
+﻿Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe assembly.
+Committing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe assembly.
+Remove InstallState file because there are no installers.
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe assembly.
+Committing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe assembly.
+Remove InstallState file because there are no installers.
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe assembly.
+Committing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe assembly.
+Remove InstallState file because there are no installers.
+Uninstalling assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe assembly.
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe assembly.
+Committing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe assembly.
+Remove InstallState file because there are no installers.
+Uninstalling assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Removing EventLog source StealME.Service.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Installing service StealME.Service...
+Creating EventLog source StealME.Service in log Application...
+Rolling back assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Restoring event log to previous state for source StealME.Service.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Rolling back assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+An exception occurred during the Rollback phase of the System.ServiceProcess.ServiceProcessInstaller installer.
+System.NullReferenceException: Object reference not set to an instance of an object.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Rolling back assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+An exception occurred during the Rollback phase of the System.ServiceProcess.ServiceProcessInstaller installer.
+System.NullReferenceException: Object reference not set to an instance of an object.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Installing service StealME.Service...
+Creating EventLog source StealME.Service in log Application...
+Rolling back assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Restoring event log to previous state for source StealME.Service.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Rolling back assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+An exception occurred during the Rollback phase of the System.ServiceProcess.ServiceProcessInstaller installer.
+System.NullReferenceException: Object reference not set to an instance of an object.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Installing service StealME.Service...
+Creating EventLog source StealME.Service in log Application...
+Rolling back assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Restoring event log to previous state for source StealME.Service.
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Installing service StealME.Service...
+Creating EventLog source StealME.Service in log Application...
+Rolling back assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Restoring event log to previous state for source StealME.Service.
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Rolling back assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Installing service StealME.Service...
+Creating EventLog source StealME.Service in log Application...
+Rolling back assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Restoring event log to previous state for source StealME.Service.
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Installing service StealME.Service...
+Service StealME.Service has been successfully installed.
+Creating EventLog source StealME.Service in log Application...
+Committing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Uninstalling assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Removing EventLog source StealME.Service.
+Service StealME.Service is being removed from the system...
+Service StealME.Service was successfully removed from the system.
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Installing service StealME.Service...
+Service StealME.Service has been successfully installed.
+Creating EventLog source StealME.Service in log Application...
+Committing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Uninstalling assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Removing EventLog source StealME.Service.
+Service StealME.Service is being removed from the system...
+Service StealME.Service was successfully removed from the system.
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Installing service StealME.Service...
+Service StealME.Service has been successfully installed.
+Creating EventLog source StealME.Service in log Application...
+Committing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Uninstalling assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Removing EventLog source StealME.Service.
+Service StealME.Service is being removed from the system...
+Service StealME.Service was successfully removed from the system.
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Installing service StealME.Service...
+Service StealME.Service has been successfully installed.
+Creating EventLog source StealME.Service in log Application...
+Committing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Uninstalling assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Removing EventLog source StealME.Service.
+Service StealME.Service is being removed from the system...
+Service StealME.Service was successfully removed from the system.
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Installing service StealME.Service...
+Service StealME.Service has been successfully installed.
+Creating EventLog source StealME.Service in log Application...
+Committing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Uninstalling assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Removing EventLog source StealME.Service.
+Service StealME.Service is being removed from the system...
+Service StealME.Service was successfully removed from the system.
+Attempt to stop service StealME.Service.
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Installing service StealME.Service...
+Service StealME.Service has been successfully installed.
+Creating EventLog source StealME.Service in log Application...
+Committing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Uninstalling assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Removing EventLog source StealME.Service.
+Service StealME.Service is being removed from the system...
+Service StealME.Service was successfully removed from the system.
+Attempt to stop service StealME.Service.
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Installing service StealME.Service...
+Service StealME.Service has been successfully installed.
+Creating EventLog source StealME.Service in log Application...
+Committing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Uninstalling assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Removing EventLog source StealME.Service.
+Service StealME.Service is being removed from the system...
+Service StealME.Service was successfully removed from the system.
+Attempt to stop service StealME.Service.
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Installing service StealME.Service...
+Service StealME.Service has been successfully installed.
+Creating EventLog source StealME.Service in log Application...
+Committing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Uninstalling assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Removing EventLog source StealME.Service.
+Service StealME.Service is being removed from the system...
+Service StealME.Service was successfully removed from the system.
+Attempt to stop service StealME.Service.
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Installing service StealME.Service...
+Service StealME.Service has been successfully installed.
+Creating EventLog source StealME.Service in log Application...
+Committing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Uninstalling assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Removing EventLog source StealME.Service.
+Service StealME.Service is being removed from the system...
+Service StealME.Service was successfully removed from the system.
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Installing service StealME.Service...
+Service StealME.Service has been successfully installed.
+Creating EventLog source StealME.Service in log Application...
+Committing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Uninstalling assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Removing EventLog source StealME.Service.
+Service StealME.Service is being removed from the system...
+Service StealME.Service was successfully removed from the system.
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Installing service StealME.Service...
+Creating EventLog source StealME.Service in log Application...
+Rolling back assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Restoring event log to previous state for source StealME.Service.
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Installing service StealME.Service...
+Creating EventLog source StealME.Service in log Application...
+Rolling back assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Restoring event log to previous state for source StealME.Service.
+Uninstalling assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Removing EventLog source StealME.Service.
+Warning: The source StealME.Service is not registered on the local machine.
+Service StealME.Service is being removed from the system...
+Service StealME.Service was successfully removed from the system.
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Installing service StealME.Service...
+Creating EventLog source StealME.Service in log Application...
+Rolling back assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Restoring event log to previous state for source StealME.Service.
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Installing service StealME.Service...
+Creating EventLog source StealME.Service in log Application...
+Rolling back assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Restoring event log to previous state for source StealME.Service.
+Uninstalling assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Removing EventLog source StealME.Service.
+Warning: The source StealME.Service is not registered on the local machine.
+Service StealME.Service is being removed from the system...
+Service StealME.Service was successfully removed from the system.
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Installing service StealME.Service...
+Creating EventLog source StealME.Service in log Application...
+Rolling back assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Restoring event log to previous state for source StealME.Service.
+Uninstalling assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Removing EventLog source StealME.Service.
+Warning: The source StealME.Service is not registered on the local machine.
+Service StealME.Service is being removed from the system...
+Service StealME.Service was successfully removed from the system.
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Installing service StealME.Service...
+Creating EventLog source StealME.Service in log Application...
+Rolling back assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Restoring event log to previous state for source StealME.Service.
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Installing service StealME.Service...
+Creating EventLog source StealME.Service in log Application...
+Rolling back assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Restoring event log to previous state for source StealME.Service.
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Installing service StealME.Service...
+Service StealME.Service has been successfully installed.
+Creating EventLog source StealME.Service in log Application...
+Committing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Uninstalling assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Removing EventLog source StealME.Service.
+Service StealME.Service is being removed from the system...
+Service StealME.Service was successfully removed from the system.
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Installing service StealME.Service...
+Service StealME.Service has been successfully installed.
+Creating EventLog source StealME.Service in log Application...
+Committing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Uninstalling assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Removing EventLog source StealME.Service.
+Service StealME.Service is being removed from the system...
+Service StealME.Service was successfully removed from the system.
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Installing service StealME.Service...
+Service StealME.Service has been successfully installed.
+Creating EventLog source StealME.Service in log Application...
+Committing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Uninstalling assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Removing EventLog source StealME.Service.
+Service StealME.Service is being removed from the system...
+Service StealME.Service was successfully removed from the system.
+Installing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Installing service StealME.Service...
+Service StealME.Service has been successfully installed.
+Creating EventLog source StealME.Service in log Application...
+Committing assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Uninstalling assembly 'C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.InstallLog
+   assemblypath = C:\Development\StealME.Server\StealME.Server.Service\bin\Debug\StealME.Server.Service.exe
+Removing EventLog source StealME.Service.
+Service StealME.Service is being removed from the system...
+Service StealME.Service was successfully removed from the system.

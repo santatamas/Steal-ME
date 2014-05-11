@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="StealME.Server.Service.WCF.SMWebAPI" CodeBehind="StealME.WebAPI.svc.cs" %>

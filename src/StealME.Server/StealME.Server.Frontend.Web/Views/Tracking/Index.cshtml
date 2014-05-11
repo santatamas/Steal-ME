@@ -1,0 +1,27 @@
+﻿@using StealME.Server.Data.DAL
+@using StealME.Server.Frontend.Web.Models
+@{
+    ViewBag.Title = "Tracking";
+}
+
+<h2>Tracking</h2>
+<script>
+    document.body.onload = function() {
+        
+        // Init OpenLayers
+        init();
+
+        $(".datefield").datepicker();
+        
+        setInterval('UpdateTrackingInformation();', 5000);
+    }
+</script>
+
+<div id="tracking-controls">
+    @{
+        Html.RenderPartial("TrackerNavigation", (TrackerNavigationModel)this.Model);
+    }
+</div>
+<div id="map">
+</div>
+<div style="clear:both;"></div>

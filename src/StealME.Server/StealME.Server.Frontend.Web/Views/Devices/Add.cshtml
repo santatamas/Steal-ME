@@ -1,0 +1,44 @@
+﻿@model StealME.Server.Frontend.Web.Models.DeviceRegistrationModel
+
+@{
+    ViewBag.Title = "Add New Tracking Device (beta test only)";
+}
+
+<h2>Sign up your phone as a tracking device.</h2>
+
+@using (Html.BeginForm("Add", "Devices", null, FormMethod.Post, null))
+{
+    @Html.ValidationSummary(true, "Login was unsuccessful. Please correct the errors and try again.")
+    <div style="width:400px;">
+        <fieldset>
+            <legend>Device informations</legend>
+            
+            <div class="editor-label">
+                @Html.LabelFor(m => m.DeviceName)
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(m => m.DeviceName, new { style = "width:100%;" })
+                @Html.ValidationMessageFor(m => m.DeviceName)
+            </div>
+            
+             <div class="editor-label">
+                @Html.LabelFor(m => m.Description)
+            </div>
+            <div class="editor-field">
+                @Html.TextAreaFor(m => m.Description, new { style = "width:100%;" })
+                @Html.ValidationMessageFor(m => m.Description)
+            </div>
+            <div class="editor-label">
+                @Html.LabelFor(m => m.IMEI)
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(m => m.IMEI, new { style = "width:100%;" })
+                @Html.ValidationMessageFor(m => m.IMEI)
+            </div>
+          
+            <p>
+                <input type="submit" class="command-button" value="Register"/>
+            </p>
+        </fieldset>
+    </div>
+}

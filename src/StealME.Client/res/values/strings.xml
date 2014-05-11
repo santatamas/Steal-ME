@@ -1,0 +1,36 @@
+<resources>
+
+    <string name="app_name">StealMe</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">StealME Client</string>
+    <string name="lbl_connection_state">Connection State</string>
+    <string name="lbl_alert_state">Alert State</string>
+    <string name="lbl_settings">Settings</string>
+    <string name="lbl_connstate_smsonly">SMS Only</string>
+    <string name="lbl_connstate_online">On-Line</string>
+    <string name="lbl_connstate_nogsm">No GSM Signal</string>
+    <string name="lbl_alstate_disabled">Disabled</string>
+    <string name="lbl_alstate_enabled">Enabled</string>
+    <string name="lbl_alstate_tracking">Tracking</string>
+    <string name="log_alert_state_changed">Alert State Changed</string>
+    <string name="log_command_received">Command Received</string>
+    <string name="log_connection_state_changed">Connection State Changed</string>
+    <string name="set_use_gps">Use GPS</string>
+    <string name="set_use_network">Use Network Provider</string>
+    <string name="set_min_loc_polling">Minimum Location Polling Interval (sec)</string>
+    <string name="set_controller_phone">Controller Phone</string>
+    <string name="set_tracking_ip">Tracking Server IP</string>
+    <string name="set_enable_sms">Enable SMS Sending</string>
+    <string name="set_accelero_status">Accelerometer Status</string>
+    <string name="set_accelero_sensitivity">Accelerometer Sensitivity</string>
+    <string name="set_accelero_status_present">Present</string>
+    <string name="set_accelero_status_missing">Missing</string>
+    <string name="set_tab_location">Location</string>
+    <string name="set_tab_remote_control">Remote Control</string>
+    <string name="set_tab_sensor">Sensor</string>
+    <string name="service_name">StealMe Service</string>
+    <string name="set_tracking_port">Tracking Server Port</string>
+    <string name="set_enable_accelero">Enable accelerometer</string>
+
+</resources>

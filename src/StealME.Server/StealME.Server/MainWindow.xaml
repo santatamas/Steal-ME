@@ -1,0 +1,21 @@
+﻿<Window x:Class="StealME.Server.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="StealME.Server" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        
+        <TabControl Grid.Row="0" x:Name="ClientTabs" />
+        <StatusBar Grid.Row="1" Height="23"  Name="StatusBar" >
+            <StatusBarItem>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Connections:" Margin="0,0,5,0" />
+                    <TextBlock x:Name="statConnections" />
+                </StackPanel>
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>

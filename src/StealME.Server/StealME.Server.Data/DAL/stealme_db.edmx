@@ -1,0 +1,587 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="StealMEModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="StealMEModelStoreContainer">
+          <EntitySet Name="Command" EntityType="StealMEModel.Store.Command" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Contact" EntityType="StealMEModel.Store.Contact" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Licence" EntityType="StealMEModel.Store.Licence" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Message" EntityType="StealMEModel.Store.Message" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Position" EntityType="StealMEModel.Store.Position" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tracker" EntityType="StealMEModel.Store.Tracker" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="User" EntityType="StealMEModel.Store.User" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_CommandQueue_Tracker" Association="StealMEModel.Store.FK_CommandQueue_Tracker">
+            <End Role="Tracker" EntitySet="Tracker" />
+            <End Role="Command" EntitySet="Command" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Contact_User" Association="StealMEModel.Store.FK_Contact_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="Contact" EntitySet="Contact" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Licence_Tracker" Association="StealMEModel.Store.FK_Licence_Tracker">
+            <End Role="Tracker" EntitySet="Tracker" />
+            <End Role="Licence" EntitySet="Licence" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Licence_User" Association="StealMEModel.Store.FK_Licence_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="Licence" EntitySet="Licence" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Message_Tracker" Association="StealMEModel.Store.FK_Message_Tracker">
+            <End Role="Tracker" EntitySet="Tracker" />
+            <End Role="Message" EntitySet="Message" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Position_Tracker" Association="StealMEModel.Store.FK_Position_Tracker">
+            <End Role="Tracker" EntitySet="Tracker" />
+            <End Role="Position" EntitySet="Position" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Command">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="TrackerId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="CommandText" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="CreationDate" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Contact">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="FirstName" Type="nvarchar" Nullable="false" />
+          <Property Name="LastName" Type="nvarchar" Nullable="false" />
+          <Property Name="Zip" Type="nvarchar" Nullable="false" />
+          <Property Name="Country" Type="nvarchar" Nullable="false" />
+          <Property Name="Address" Type="nvarchar" Nullable="false" />
+          <Property Name="Address2" Type="nvarchar" Nullable="false" />
+          <Property Name="Phone" Type="nvarchar" Nullable="false" />
+          <Property Name="Email" Type="nvarchar" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Licence">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="TrackerId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="ValidFrom" Type="datetime" Nullable="false" />
+          <Property Name="ValidUntil" Type="datetime" Nullable="false" />
+          <Property Name="CreationDate" Type="datetime" Nullable="false" />
+          <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Message">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="CreationDate" Type="datetime" Nullable="false" />
+          <Property Name="Message" Type="nvarchar" MaxLength="500" />
+          <Property Name="TrackerId" Type="uniqueidentifier" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Position">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="TrackerId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="CreationDate" Type="datetime" Nullable="false" />
+          <Property Name="Latitude" Type="nvarchar" Nullable="false" MaxLength="40" />
+          <Property Name="Longtitude" Type="nvarchar" Nullable="false" MaxLength="40" />
+          <Property Name="CellId" Type="nvarchar" MaxLength="10" />
+          <Property Name="Rssi" Type="nvarchar" MaxLength="10" />
+          <Property Name="Mnc" Type="nvarchar" MaxLength="10" />
+          <Property Name="Mcc" Type="nvarchar" MaxLength="10" />
+          <Property Name="Acc" Type="nvarchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="Tracker">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="IMEI" Type="nvarchar" Nullable="false" MaxLength="40" />
+          <Property Name="CreationDate" Type="datetime" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="256" />
+          <Property Name="Description" Type="nvarchar" Nullable="false" MaxLength="512" />
+          <Property Name="LastKnownState" Type="nvarchar" MaxLength="50" />
+          <Property Name="IsOnline" Type="bit" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="128" />
+          <Property Name="CreationDate" Type="datetime" Nullable="false" />
+          <Property Name="Password" Type="nvarchar" Nullable="false" MaxLength="128" />
+          <Property Name="LastLoginDate" Type="datetime" />
+          <Property Name="Email" Type="nvarchar" MaxLength="100" />
+          <Property Name="PasswordSalt" Type="nvarchar" MaxLength="128" />
+          <Property Name="Comments" Type="nvarchar" MaxLength="256" />
+          <Property Name="LastModifiedDate" Type="datetime" />
+          <Property Name="LastLoginIp" Type="nvarchar" MaxLength="50" />
+          <Property Name="IsActivated" Type="bit" Nullable="false" />
+          <Property Name="IsLockedOut" Type="bit" Nullable="false" />
+          <Property Name="NewPasswordKey" Type="nvarchar" MaxLength="128" />
+          <Property Name="NewPasswordRequested" Type="datetime" />
+          <Property Name="NewEmail" Type="nvarchar" MaxLength="100" />
+          <Property Name="NewEmailKey" Type="nvarchar" MaxLength="128" />
+          <Property Name="NewEmailRequested" Type="datetime" />
+          <Property Name="LastLockedOutReason" Type="nvarchar" MaxLength="256" />
+          <Property Name="LastLockedOutDate" Type="datetime" />
+        </EntityType>
+        <Association Name="FK_CommandQueue_Tracker">
+          <End Role="Tracker" Type="StealMEModel.Store.Tracker" Multiplicity="1" />
+          <End Role="Command" Type="StealMEModel.Store.Command" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tracker">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Command">
+              <PropertyRef Name="TrackerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Contact_User">
+          <End Role="User" Type="StealMEModel.Store.User" Multiplicity="1" />
+          <End Role="Contact" Type="StealMEModel.Store.Contact" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Contact">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Licence_Tracker">
+          <End Role="Tracker" Type="StealMEModel.Store.Tracker" Multiplicity="1" />
+          <End Role="Licence" Type="StealMEModel.Store.Licence" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tracker">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Licence">
+              <PropertyRef Name="TrackerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Licence_User">
+          <End Role="User" Type="StealMEModel.Store.User" Multiplicity="1" />
+          <End Role="Licence" Type="StealMEModel.Store.Licence" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Licence">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Message_Tracker">
+          <End Role="Tracker" Type="StealMEModel.Store.Tracker" Multiplicity="1" />
+          <End Role="Message" Type="StealMEModel.Store.Message" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tracker">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Message">
+              <PropertyRef Name="TrackerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Position_Tracker">
+          <End Role="Tracker" Type="StealMEModel.Store.Tracker" Multiplicity="1" />
+          <End Role="Position" Type="StealMEModel.Store.Position" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tracker">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Position">
+              <PropertyRef Name="TrackerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="StealMEModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="StealMEEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Command" EntityType="StealMEModel.Command" />
+          <EntitySet Name="Contact" EntityType="StealMEModel.Contact" />
+          <EntitySet Name="Licence" EntityType="StealMEModel.Licence" />
+          <EntitySet Name="Message" EntityType="StealMEModel.Message" />
+          <EntitySet Name="Position" EntityType="StealMEModel.Position" />
+          <EntitySet Name="User" EntityType="StealMEModel.User" />
+          <AssociationSet Name="FK_Contact_User" Association="StealMEModel.FK_Contact_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="Contact" EntitySet="Contact" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Licence_User" Association="StealMEModel.FK_Licence_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="Licence" EntitySet="Licence" />
+          </AssociationSet>
+          <EntitySet Name="Tracker" EntityType="StealMEModel.Tracker" />
+          <AssociationSet Name="FK_CommandQueue_Tracker" Association="StealMEModel.FK_CommandQueue_Tracker">
+            <End Role="Tracker" EntitySet="Tracker" />
+            <End Role="Command" EntitySet="Command" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Licence_Tracker" Association="StealMEModel.FK_Licence_Tracker">
+            <End Role="Tracker" EntitySet="Tracker" />
+            <End Role="Licence" EntitySet="Licence" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Message_Tracker" Association="StealMEModel.FK_Message_Tracker">
+            <End Role="Tracker" EntitySet="Tracker" />
+            <End Role="Message" EntitySet="Message" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Position_Tracker" Association="StealMEModel.FK_Position_Tracker">
+            <End Role="Tracker" EntitySet="Tracker" />
+            <End Role="Position" EntitySet="Position" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Command">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Guid" Nullable="false" />
+          <Property Name="TrackerId" Type="Guid" Nullable="false" />
+          <Property Name="CommandText" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="CreationDate" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="Tracker" Relationship="StealMEModel.FK_CommandQueue_Tracker" FromRole="Command" ToRole="Tracker" />
+        </EntityType>
+        <EntityType Name="Contact">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Guid" Nullable="false" />
+          <Property Name="UserId" Type="Guid" Nullable="false" />
+          <Property Name="FirstName" Type="String" Nullable="false" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="LastName" Type="String" Nullable="false" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="Zip" Type="String" Nullable="false" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="Country" Type="String" Nullable="false" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="Address" Type="String" Nullable="false" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="Address2" Type="String" Nullable="false" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="Phone" Type="String" Nullable="false" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="Email" Type="String" Nullable="false" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="User" Relationship="StealMEModel.FK_Contact_User" FromRole="Contact" ToRole="User" />
+        </EntityType>
+        <EntityType Name="Licence">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Guid" Nullable="false" />
+          <Property Name="TrackerId" Type="Guid" Nullable="false" />
+          <Property Name="ValidFrom" Type="DateTime" Nullable="false" />
+          <Property Name="ValidUntil" Type="DateTime" Nullable="false" />
+          <Property Name="CreationDate" Type="DateTime" Nullable="false" />
+          <Property Name="UserId" Type="Guid" Nullable="false" />
+          <NavigationProperty Name="User" Relationship="StealMEModel.FK_Licence_User" FromRole="Licence" ToRole="User" />
+          <NavigationProperty Name="Tracker" Relationship="StealMEModel.FK_Licence_Tracker" FromRole="Licence" ToRole="Tracker" />
+        </EntityType>
+        <EntityType Name="Message">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Guid" Nullable="false" />
+          <Property Name="CreationDate" Type="DateTime" Nullable="false" />
+          <Property Name="Message1" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="TrackerId" Type="Guid" Nullable="false" />
+          <NavigationProperty Name="Tracker" Relationship="StealMEModel.FK_Message_Tracker" FromRole="Message" ToRole="Tracker" />
+        </EntityType>
+        <EntityType Name="Position">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Guid" Nullable="false" />
+          <Property Name="TrackerId" Type="Guid" Nullable="false" />
+          <Property Name="CreationDate" Type="DateTime" Nullable="false" />
+          <Property Name="Latitude" Type="String" Nullable="false" MaxLength="40" Unicode="true" FixedLength="false" />
+          <Property Name="Longtitude" Type="String" Nullable="false" MaxLength="40" Unicode="true" FixedLength="false" />
+          <Property Name="CellId" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="Rssi" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="Mnc" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="Mcc" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="Acc" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="Tracker" Relationship="StealMEModel.FK_Position_Tracker" FromRole="Position" ToRole="Tracker" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Guid" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+          <Property Name="CreationDate" Type="DateTime" Nullable="false" />
+          <Property Name="Password" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+          <Property Name="LastLoginDate" Type="DateTime" />
+          <Property Name="Email" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="PasswordSalt" Type="String" MaxLength="128" Unicode="true" FixedLength="false" />
+          <Property Name="Comments" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+          <Property Name="LastModifiedDate" Type="DateTime" />
+          <Property Name="LastLoginIp" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="IsActivated" Type="Boolean" Nullable="false" />
+          <Property Name="IsLockedOut" Type="Boolean" Nullable="false" />
+          <Property Name="NewPasswordKey" Type="String" MaxLength="128" Unicode="true" FixedLength="false" />
+          <Property Name="NewPasswordRequested" Type="DateTime" />
+          <Property Name="NewEmail" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="NewEmailKey" Type="String" MaxLength="128" Unicode="true" FixedLength="false" />
+          <Property Name="NewEmailRequested" Type="DateTime" />
+          <Property Name="LastLockedOutReason" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+          <Property Name="LastLockedOutDate" Type="DateTime" />
+          <NavigationProperty Name="Contact" Relationship="StealMEModel.FK_Contact_User" FromRole="User" ToRole="Contact" />
+          <NavigationProperty Name="Licence" Relationship="StealMEModel.FK_Licence_User" FromRole="User" ToRole="Licence" />
+        </EntityType>
+        <Association Name="FK_Contact_User">
+          <End Role="User" Type="StealMEModel.User" Multiplicity="1" />
+          <End Role="Contact" Type="StealMEModel.Contact" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Contact">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Licence_User">
+          <End Role="User" Type="StealMEModel.User" Multiplicity="1" />
+          <End Role="Licence" Type="StealMEModel.Licence" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Licence">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Tracker">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Guid" Name="Id" Nullable="false" />
+          <Property Type="String" Name="IMEI" Nullable="false" MaxLength="40" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="CreationDate" Nullable="false" />
+          <Property Type="String" Name="Name" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Description" Nullable="false" MaxLength="512" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="LastKnownState" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="IsOnline" />
+          <NavigationProperty Name="Command" Relationship="StealMEModel.FK_CommandQueue_Tracker" FromRole="Tracker" ToRole="Command" />
+          <NavigationProperty Name="Licence" Relationship="StealMEModel.FK_Licence_Tracker" FromRole="Tracker" ToRole="Licence" />
+          <NavigationProperty Name="Message" Relationship="StealMEModel.FK_Message_Tracker" FromRole="Tracker" ToRole="Message" />
+          <NavigationProperty Name="Position" Relationship="StealMEModel.FK_Position_Tracker" FromRole="Tracker" ToRole="Position" />
+        </EntityType>
+        <Association Name="FK_CommandQueue_Tracker">
+          <End Type="StealMEModel.Tracker" Role="Tracker" Multiplicity="1" />
+          <End Type="StealMEModel.Command" Role="Command" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tracker">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Command">
+              <PropertyRef Name="TrackerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Licence_Tracker">
+          <End Type="StealMEModel.Tracker" Role="Tracker" Multiplicity="1" />
+          <End Type="StealMEModel.Licence" Role="Licence" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tracker">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Licence">
+              <PropertyRef Name="TrackerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Message_Tracker">
+          <End Type="StealMEModel.Tracker" Role="Tracker" Multiplicity="1" />
+          <End Type="StealMEModel.Message" Role="Message" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tracker">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Message">
+              <PropertyRef Name="TrackerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Position_Tracker">
+          <End Type="StealMEModel.Tracker" Role="Tracker" Multiplicity="1" />
+          <End Type="StealMEModel.Position" Role="Position" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tracker">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Position">
+              <PropertyRef Name="TrackerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="StealMEModelStoreContainer" CdmEntityContainer="StealMEEntities">
+          <EntitySetMapping Name="Command">
+            <EntityTypeMapping TypeName="StealMEModel.Command">
+              <MappingFragment StoreEntitySet="Command">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="TrackerId" ColumnName="TrackerId" />
+                <ScalarProperty Name="CommandText" ColumnName="CommandText" />
+                <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Contact">
+            <EntityTypeMapping TypeName="StealMEModel.Contact">
+              <MappingFragment StoreEntitySet="Contact">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="Zip" ColumnName="Zip" />
+                <ScalarProperty Name="Country" ColumnName="Country" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="Address2" ColumnName="Address2" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Licence">
+            <EntityTypeMapping TypeName="StealMEModel.Licence">
+              <MappingFragment StoreEntitySet="Licence">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="TrackerId" ColumnName="TrackerId" />
+                <ScalarProperty Name="ValidFrom" ColumnName="ValidFrom" />
+                <ScalarProperty Name="ValidUntil" ColumnName="ValidUntil" />
+                <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Message">
+            <EntityTypeMapping TypeName="StealMEModel.Message">
+              <MappingFragment StoreEntitySet="Message">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+                <ScalarProperty Name="Message1" ColumnName="Message" />
+                <ScalarProperty Name="TrackerId" ColumnName="TrackerId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Position">
+            <EntityTypeMapping TypeName="StealMEModel.Position">
+              <MappingFragment StoreEntitySet="Position">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="TrackerId" ColumnName="TrackerId" />
+                <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+                <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+                <ScalarProperty Name="Longtitude" ColumnName="Longtitude" />
+                <ScalarProperty Name="CellId" ColumnName="CellId" />
+                <ScalarProperty Name="Rssi" ColumnName="Rssi" />
+                <ScalarProperty Name="Mnc" ColumnName="Mnc" />
+                <ScalarProperty Name="Mcc" ColumnName="Mcc" />
+                <ScalarProperty Name="Acc" ColumnName="Acc" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="User">
+            <EntityTypeMapping TypeName="StealMEModel.User">
+              <MappingFragment StoreEntitySet="User">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="LastLoginDate" ColumnName="LastLoginDate" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="PasswordSalt" ColumnName="PasswordSalt" />
+                <ScalarProperty Name="Comments" ColumnName="Comments" />
+                <ScalarProperty Name="LastModifiedDate" ColumnName="LastModifiedDate" />
+                <ScalarProperty Name="LastLoginIp" ColumnName="LastLoginIp" />
+                <ScalarProperty Name="IsActivated" ColumnName="IsActivated" />
+                <ScalarProperty Name="IsLockedOut" ColumnName="IsLockedOut" />
+                <ScalarProperty Name="NewPasswordKey" ColumnName="NewPasswordKey" />
+                <ScalarProperty Name="NewPasswordRequested" ColumnName="NewPasswordRequested" />
+                <ScalarProperty Name="NewEmail" ColumnName="NewEmail" />
+                <ScalarProperty Name="NewEmailKey" ColumnName="NewEmailKey" />
+                <ScalarProperty Name="NewEmailRequested" ColumnName="NewEmailRequested" />
+                <ScalarProperty Name="LastLockedOutReason" ColumnName="LastLockedOutReason" />
+                <ScalarProperty Name="LastLockedOutDate" ColumnName="LastLockedOutDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Tracker">
+            <EntityTypeMapping TypeName="StealMEModel.Tracker">
+              <MappingFragment StoreEntitySet="Tracker">
+                <ScalarProperty Name="IsOnline" ColumnName="IsOnline" />
+                <ScalarProperty Name="LastKnownState" ColumnName="LastKnownState" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+                <ScalarProperty Name="IMEI" ColumnName="IMEI" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="stealme_db">
+        <EntityTypeShape EntityType="StealMEModel.Command" Width="1.5" PointX="9.125" PointY="3.875" Height="1.9802864583333335" IsExpanded="true" />
+        <EntityTypeShape EntityType="StealMEModel.Contact" Width="1.5" PointX="7" PointY="10.125" Height="3.1340950520833317" IsExpanded="true" />
+        <EntityTypeShape EntityType="StealMEModel.Licence" Width="1.5" PointX="7" PointY="6.375" Height="2.5571907552083344" IsExpanded="true" />
+        <EntityTypeShape EntityType="StealMEModel.Message" Width="1.5" PointX="9.125" PointY="10.125" Height="1.9802864583333317" IsExpanded="true" />
+        <EntityTypeShape EntityType="StealMEModel.Position" Width="1.5" PointX="11.375" PointY="6.375" Height="3.1340950520833317" IsExpanded="true" />
+        <EntityTypeShape EntityType="StealMEModel.User" Width="1.5" PointX="4.5" PointY="6.375" Height="5.057109374999996" IsExpanded="true" />
+        <AssociationConnector Association="StealMEModel.FK_Contact_User" ManuallyRouted="false">
+          <ConnectorPoint PointX="6" PointY="10.778554687499998" />
+          <ConnectorPoint PointX="7" PointY="10.778554687499998" />
+        </AssociationConnector>
+        <AssociationConnector Association="StealMEModel.FK_Licence_User" ManuallyRouted="false">
+          <ConnectorPoint PointX="6" PointY="7.6535953776041667" />
+          <ConnectorPoint PointX="7" PointY="7.6535953776041667" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="StealMEModel.Tracker" Width="1.5" PointX="9.125" PointY="6.5" Height="3.1340950520833317" />
+        <AssociationConnector Association="StealMEModel.FK_CommandQueue_Tracker" >
+          <ConnectorPoint PointX="9.875" PointY="6.5" />
+          <ConnectorPoint PointX="9.875" PointY="5.8552864583333335" />
+        </AssociationConnector>
+        <AssociationConnector Association="StealMEModel.FK_Licence_Tracker" >
+          <ConnectorPoint PointX="9.125" PointY="7.7160953776041667" />
+          <ConnectorPoint PointX="8.5" PointY="7.7160953776041667" />
+        </AssociationConnector>
+        <AssociationConnector Association="StealMEModel.FK_Message_Tracker" >
+          <ConnectorPoint PointX="9.875" PointY="9.6340950520833317" />
+          <ConnectorPoint PointX="9.875" PointY="10.125" />
+        </AssociationConnector>
+        <AssociationConnector Association="StealMEModel.FK_Position_Tracker" >
+          <ConnectorPoint PointX="10.625" PointY="8.0045475260416659" />
+          <ConnectorPoint PointX="11.375" PointY="8.0045475260416659" />
+        </AssociationConnector>
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

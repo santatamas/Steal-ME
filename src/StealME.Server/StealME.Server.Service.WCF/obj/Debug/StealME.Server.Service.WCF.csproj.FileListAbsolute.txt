@@ -1,0 +1,15 @@
+C:\Development\StealME\StealME.Server\StealME.Server.Service.WCF\bin\StealME.Server.Service.WCF.dll
+C:\Development\StealME\StealME.Server\StealME.Server.Service.WCF\bin\StealME.Server.Service.WCF.pdb
+C:\Development\StealME\StealME.Server\StealME.Server.Service.WCF\bin\StealME.Server.Core.dll
+C:\Development\StealME\StealME.Server\StealME.Server.Service.WCF\bin\StealME.Server.Messaging.dll
+C:\Development\StealME\StealME.Server\StealME.Server.Service.WCF\bin\StealME.Server.Data.dll
+C:\Development\StealME\StealME.Server\StealME.Server.Service.WCF\bin\StealME.Server.Networking.dll
+C:\Development\StealME\StealME.Server\StealME.Server.Service.WCF\bin\EntityFramework.dll
+C:\Development\StealME\StealME.Server\StealME.Server.Service.WCF\bin\StealME.Server.Core.pdb
+C:\Development\StealME\StealME.Server\StealME.Server.Service.WCF\bin\StealME.Server.Messaging.pdb
+C:\Development\StealME\StealME.Server\StealME.Server.Service.WCF\bin\StealME.Server.Data.pdb
+C:\Development\StealME\StealME.Server\StealME.Server.Service.WCF\bin\StealME.Server.Networking.pdb
+C:\Development\StealME\StealME.Server\StealME.Server.Service.WCF\bin\EntityFramework.xml
+C:\Development\StealME\StealME.Server\StealME.Server.Service.WCF\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\StealME\StealME.Server\StealME.Server.Service.WCF\obj\Debug\StealME.Server.Service.WCF.dll
+C:\Development\StealME\StealME.Server\StealME.Server.Service.WCF\obj\Debug\StealME.Server.Service.WCF.pdb

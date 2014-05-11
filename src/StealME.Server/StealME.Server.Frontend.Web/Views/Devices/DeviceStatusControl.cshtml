@@ -1,0 +1,16 @@
+﻿@using StealME.Server.Data.DAL
+
+<div style="border:1px solid #696969;margin:5px;padding:5px;float:left;">
+    <div style="float:left; margin:5px;">
+    Last Updated: @DateTime.Now.ToString() <br />
+    Name: @this.Model.Tracker.Name <br />
+    IMEI: @this.Model.Tracker.IMEI <br />
+    Description: @this.Model.Tracker.Description <br />
+    Valid Until: @this.Model.ValidUntil.ToShortDateString() <br />
+    </div>
+    <div style="float:right; margin:5px;">
+        @Html.ActionLink("Tracking", "Index", "Tracking", new { DeviceId = this.Model.Tracker.Id},null) <br />
+        <a href="#">Licence</a> <br />
+        <a href="#">etc</a> <br />
+    </div>
+</div>

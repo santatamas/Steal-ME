@@ -1,0 +1,1 @@
+[StealME.Service-02.09.2012 14:29:04] Command added: CMD.ACTIVATE

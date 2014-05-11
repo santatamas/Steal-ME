@@ -1,0 +1,39 @@
+﻿@using StealME.Server.Data.DAL
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>@ViewBag.Message</h2>
+
+<script>
+    document.body.onload = function() {
+        
+        // Init OpenLayers
+        init();
+        
+        // Add markers - testing only
+        addMarker(19.03070477, 47.48982373, "custom marker1");
+        addMarker(19.11389548, 47.51422373, "custom marker2");
+        addMarker(19.11489590, 47.51425300, "custom marker3");
+        addMarker(19.11289500, 47.51522600, "custom marker4");
+        addMarker(19.11689548, 47.51522373, "custom marker5");
+        addMarker(19.11419548, 47.55522373, "custom marker6");
+        addMarker(19.11429548, 47.55622373, "custom marker7");
+        addMarker(19.11439548, 47.55322373, "custom marker8");
+        addMarker(19.11449548, 47.55222373, "custom marker9");
+        addMarker(19.11459548, 47.55122373, "custom marker10");
+        addMarker(19.11449548, 47.55022373, "custom marker11");
+        
+        // Set center of map - testing only
+        setCenter(19.11389548, 47.51422373);
+    
+        // Add Markers from device positions
+        @foreach (Position pos in ViewBag.Positions)
+        {
+        <text>addMarker(@pos.Longtitude, @pos.Latitude , "@pos.Latitude , @pos.Longtitude");</text>
+        }
+    }
+</script>
+
+<div id="info"></div>
+<div id="map" style="width: 1000px; height: 700px"></div>

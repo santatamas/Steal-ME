@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.5, 10" name="stealme_db">
+  <DataContextMoniker Name="/stealme_dbDataContext" />
+  <nestedChildShapes>
+    <classShape Id="168ff7b0-e807-4c95-9cfa-c4c3f07e6373" absoluteBounds="1.875, 5.25, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/stealme_dbDataContext/Contact" />
+      <nestedChildShapes>
+        <elementListCompartment Id="034befb2-94d8-40e3-82ff-82f49024dd57" absoluteBounds="1.8899999999999997, 5.71, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c5c14523-8cd9-4a82-a708-263d39d1bbee" absoluteBounds="4.25, 2.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/stealme_dbDataContext/Licence" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4d4608b6-4502-43fa-9aa1-ddbb21bf8d34" absoluteBounds="4.2650000000000006, 3.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6c9d0247-e572-4fad-b655-04487ed4a38b" absoluteBounds="9.25, 2.75, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/stealme_dbDataContext/Position" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d4ed1910-29bd-4dc7-a79f-87b5c6801a91" absoluteBounds="9.265, 3.21, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3a602835-37d1-4bff-8348-b6cdf0c8d132" absoluteBounds="6.75, 5.25, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/stealme_dbDataContext/Message" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8d6aba5e-7345-4b47-ab8e-8799e6e36a47" absoluteBounds="6.765, 5.71, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="63f9d741-ef34-4649-a262-e5a29af207a0" absoluteBounds="6.75, 0.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/stealme_dbDataContext/Command" />
+      <nestedChildShapes>
+        <elementListCompartment Id="da39dc94-d011-452c-ad0b-b6db401002bd" absoluteBounds="6.765, 1.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e3488730-0e76-40e6-b563-81c37f8550a7" absoluteBounds="6.75, 2.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/stealme_dbDataContext/Tracker" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cf777870-b638-4718-a42d-9936fcd4b5da" absoluteBounds="6.765, 3.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.75 : 3.73159912109375); (6.25 : 3.73159912109375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/stealme_dbDataContext/Tracker/Tracker_Licence" />
+      <nodes>
+        <classShapeMoniker Id="e3488730-0e76-40e6-b563-81c37f8550a7" />
+        <classShapeMoniker Id="c5c14523-8cd9-4a82-a708-263d39d1bbee" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.75 : 3.73159912109375); (9.25 : 3.73159912109375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/stealme_dbDataContext/Tracker/Tracker_Position" />
+      <nodes>
+        <classShapeMoniker Id="e3488730-0e76-40e6-b563-81c37f8550a7" />
+        <classShapeMoniker Id="6c9d0247-e572-4fad-b655-04487ed4a38b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.75 : 4.7131982421875); (7.75 : 5.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/stealme_dbDataContext/Tracker/Tracker_Message" />
+      <nodes>
+        <classShapeMoniker Id="e3488730-0e76-40e6-b563-81c37f8550a7" />
+        <classShapeMoniker Id="3a602835-37d1-4bff-8348-b6cdf0c8d132" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.75 : 2.75); (7.75 : 2.32859537760417)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/stealme_dbDataContext/Tracker/Tracker_Command" />
+      <nodes>
+        <classShapeMoniker Id="e3488730-0e76-40e6-b563-81c37f8550a7" />
+        <classShapeMoniker Id="63f9d741-ef34-4649-a262-e5a29af207a0" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="58bedf8a-80e1-4bb3-bdbd-1214450fe23b" absoluteBounds="4.25, 5.25, 2, 4.4631168619791666">
+      <DataClassMoniker Name="/stealme_dbDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a9899afa-7fb7-4584-bb31-9e950ec7ffc2" absoluteBounds="4.2650000000000006, 5.71, 1.9700000000000002, 3.903116861979167" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.25 : 6.61620198567708); (3.875 : 6.61620198567708)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/stealme_dbDataContext/User/User_Contact" />
+      <nodes>
+        <classShapeMoniker Id="58bedf8a-80e1-4bb3-bdbd-1214450fe23b" />
+        <classShapeMoniker Id="168ff7b0-e807-4c95-9cfa-c4c3f07e6373" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.25 : 5.25); (5.25 : 4.7131982421875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/stealme_dbDataContext/User/User_Licence" />
+      <nodes>
+        <classShapeMoniker Id="58bedf8a-80e1-4bb3-bdbd-1214450fe23b" />
+        <classShapeMoniker Id="c5c14523-8cd9-4a82-a708-263d39d1bbee" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

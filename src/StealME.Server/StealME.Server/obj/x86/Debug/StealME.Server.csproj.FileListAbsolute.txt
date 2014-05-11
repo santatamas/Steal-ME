@@ -1,0 +1,16 @@
+C:\Development\StealME.Server\StealME.Server\bin\Debug\StealME.Server.exe
+C:\Development\StealME.Server\StealME.Server\bin\Debug\StealME.Server.pdb
+C:\Development\StealME.Server\StealME.Server\bin\Debug\StealME.Server.Lib.dll
+C:\Development\StealME.Server\StealME.Server\bin\Debug\StealME.Server.Lib.pdb
+C:\Development\StealME.Server\StealME.Server\obj\x86\Debug\StealME.Server.csprojResolveAssemblyReference.cache
+C:\Development\StealME.Server\StealME.Server\obj\x86\Debug\ClientStatusDisplay.baml
+C:\Development\StealME.Server\StealME.Server\obj\x86\Debug\MainWindow.baml
+C:\Development\StealME.Server\StealME.Server\obj\x86\Debug\ClientStatusDisplay.g.cs
+C:\Development\StealME.Server\StealME.Server\obj\x86\Debug\MainWindow.g.cs
+C:\Development\StealME.Server\StealME.Server\obj\x86\Debug\App.g.cs
+C:\Development\StealME.Server\StealME.Server\obj\x86\Debug\StealME.Server_MarkupCompile.cache
+C:\Development\StealME.Server\StealME.Server\obj\x86\Debug\StealME.Server.g.resources
+C:\Development\StealME.Server\StealME.Server\obj\x86\Debug\StealME.Server.Properties.Resources.resources
+C:\Development\StealME.Server\StealME.Server\obj\x86\Debug\StealME.Server.csproj.GenerateResource.Cache
+C:\Development\StealME.Server\StealME.Server\obj\x86\Debug\StealME.Server.exe
+C:\Development\StealME.Server\StealME.Server\obj\x86\Debug\StealME.Server.pdb

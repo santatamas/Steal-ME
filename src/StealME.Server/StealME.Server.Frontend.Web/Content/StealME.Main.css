@@ -1,0 +1,52 @@
+﻿#map 
+{
+    float:right;
+    width:700px;
+    height: 600px;
+}
+
+#tracking-controls {
+    float:left;
+    /*width:20%;*/
+    width: 200px;
+    height:500px;
+}
+
+.command-button {
+    font-size: 125%;
+    padding: 7px 12px;
+    margin: 5px 0px 0px 0px;
+    width: 100%;
+    
+    background-color: #2C6DA0;
+    background-position: 0 center;
+    padding: 5px 10px;
+    display: inline;
+    background: #26AD31 url(/Content/themes/base/images/button.png) repeat-x bottom;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    text-shadow: 1px 1px #666;
+}
+
+#navigation-controls
+{
+    margin-top:20px;
+    min-height: 200px;
+}
+
+#NoPositionsDropDown {
+    width:100%!important;
+}
+
+.datefield {
+    width: 195px!important;
+}
+
+.navigation-control-row {
+    margin-top:10px;
+}
