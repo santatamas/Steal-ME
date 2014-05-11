@@ -16,3 +16,8 @@ c:\Development\StealME\StealME.Server\StealME.Server.Data\bin\Debug\StealME.Serv
 c:\Development\StealME\StealME.Server\StealME.Server.Data\obj\Debug\ResolveAssemblyReference.cache
 c:\Development\StealME\StealME.Server\StealME.Server.Data\obj\Debug\StealME.Server.Data.dll
 c:\Development\StealME\StealME.Server\StealME.Server.Data\obj\Debug\StealME.Server.Data.pdb
+c:\Users\Thomas\Documents\GitHub\Steal-ME\src\StealME.Server\StealME.Server.Data\bin\Debug\StealME.Server.Data.dll.config
+c:\Users\Thomas\Documents\GitHub\Steal-ME\src\StealME.Server\StealME.Server.Data\bin\Debug\StealME.Server.Data.dll
+c:\Users\Thomas\Documents\GitHub\Steal-ME\src\StealME.Server\StealME.Server.Data\bin\Debug\StealME.Server.Data.pdb
+c:\Users\Thomas\Documents\GitHub\Steal-ME\src\StealME.Server\StealME.Server.Data\obj\Debug\StealME.Server.Data.dll
+c:\Users\Thomas\Documents\GitHub\Steal-ME\src\StealME.Server\StealME.Server.Data\obj\Debug\StealME.Server.Data.pdb

@@ -21,3 +21,12 @@ C:\Development\StealME\StealME.Server\StealME.Server.Networking\bin\Debug\MsgPac
 C:\Development\StealME\StealME.Server\StealME.Server.Networking\bin\Debug\MsgPack.pdb
 C:\Development\StealME\StealME.Server\StealME.Server.Networking\bin\Debug\Thrift.dll
 C:\Development\StealME\StealME.Server\StealME.Server.Networking\bin\Debug\Thrift.pdb
+c:\Users\Thomas\Documents\GitHub\Steal-ME\src\StealME.Server\StealME.Server.Networking\bin\Debug\StealME.Server.Networking.dll
+c:\Users\Thomas\Documents\GitHub\Steal-ME\src\StealME.Server\StealME.Server.Networking\bin\Debug\StealME.Server.Networking.pdb
+c:\Users\Thomas\Documents\GitHub\Steal-ME\src\StealME.Server\StealME.Server.Networking\bin\Debug\MsgPack.dll
+c:\Users\Thomas\Documents\GitHub\Steal-ME\src\StealME.Server\StealME.Server.Networking\bin\Debug\Thrift.dll
+c:\Users\Thomas\Documents\GitHub\Steal-ME\src\StealME.Server\StealME.Server.Networking\bin\Debug\MsgPack.pdb
+c:\Users\Thomas\Documents\GitHub\Steal-ME\src\StealME.Server\StealME.Server.Networking\bin\Debug\Thrift.pdb
+c:\Users\Thomas\Documents\GitHub\Steal-ME\src\StealME.Server\StealME.Server.Networking\obj\Debug\StealME.Server.Networking.csprojResolveAssemblyReference.cache
+c:\Users\Thomas\Documents\GitHub\Steal-ME\src\StealME.Server\StealME.Server.Networking\obj\Debug\StealME.Server.Networking.dll
+c:\Users\Thomas\Documents\GitHub\Steal-ME\src\StealME.Server\StealME.Server.Networking\obj\Debug\StealME.Server.Networking.pdb

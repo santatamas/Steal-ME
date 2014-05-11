@@ -25,3 +25,14 @@ C:\Development\StealME\StealME.Server\StealME.Server.Networking.Client\bin\Debug
 C:\Development\StealME\StealME.Server\StealME.Server.Networking.Client\bin\Debug\MsgPack.pdb
 C:\Development\StealME\StealME.Server\StealME.Server.Networking.Client\bin\Debug\StealME.Server.Messaging.dll
 C:\Development\StealME\StealME.Server\StealME.Server.Networking.Client\bin\Debug\StealME.Server.Messaging.pdb
+c:\Users\Thomas\Documents\GitHub\Steal-ME\src\StealME.Server\StealME.Server.Networking.Client\obj\x86\Debug\StealME.Server.Networking.Client.exe
+c:\Users\Thomas\Documents\GitHub\Steal-ME\src\StealME.Server\StealME.Server.Networking.Client\obj\x86\Debug\StealME.Server.Networking.Client.pdb
+c:\Users\Thomas\Documents\GitHub\Steal-ME\src\StealME.Server\StealME.Server.Networking.Client\bin\Debug\StealME.Server.Networking.Client.exe
+c:\Users\Thomas\Documents\GitHub\Steal-ME\src\StealME.Server\StealME.Server.Networking.Client\bin\Debug\StealME.Server.Networking.Client.pdb
+c:\Users\Thomas\Documents\GitHub\Steal-ME\src\StealME.Server\StealME.Server.Networking.Client\bin\Debug\StealME.Server.Messaging.dll
+c:\Users\Thomas\Documents\GitHub\Steal-ME\src\StealME.Server\StealME.Server.Networking.Client\bin\Debug\StealME.Server.Networking.dll
+c:\Users\Thomas\Documents\GitHub\Steal-ME\src\StealME.Server\StealME.Server.Networking.Client\bin\Debug\MsgPack.dll
+c:\Users\Thomas\Documents\GitHub\Steal-ME\src\StealME.Server\StealME.Server.Networking.Client\bin\Debug\StealME.Server.Messaging.pdb
+c:\Users\Thomas\Documents\GitHub\Steal-ME\src\StealME.Server\StealME.Server.Networking.Client\bin\Debug\StealME.Server.Networking.pdb
+c:\Users\Thomas\Documents\GitHub\Steal-ME\src\StealME.Server\StealME.Server.Networking.Client\bin\Debug\MsgPack.pdb
+c:\Users\Thomas\Documents\GitHub\Steal-ME\src\StealME.Server\StealME.Server.Networking.Client\obj\x86\Debug\StealME.Server.Networking.Client.csprojResolveAssemblyReference.cache

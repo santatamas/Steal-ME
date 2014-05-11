@@ -2,12 +2,11 @@
 {
     using System;
     using System.Web.Mvc;
-    using System.Web.Security;
     using System.Web.UI;
 
-    using StealME.Server.Core.BLL;
-    using StealME.Server.Data.DAL;
-    using StealME.Server.Frontend.Web.Models;
+    using Core.BLL;
+    using Data.DAL;
+    using Models;
 
     public class DevicesController : Controller
     {
