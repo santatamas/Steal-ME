@@ -34,57 +34,152 @@
 		<link>
 			<name>src/stealme/client/communication/CommunicationState.java</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/StealMe.Client/src/stealme/client/communication/CommunicationState.java</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/src/stealme/client/communication/CommunicationState.java</locationURI>
 		</link>
 		<link>
 			<name>src/stealme/client/communication/IMessageListener.java</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/StealMe.Client/src/stealme/client/communication/IMessageListener.java</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/src/stealme/client/communication/IMessageListener.java</locationURI>
+		</link>
+		<link>
+			<name>src/stealme/client/communication/MessageDispatcher.java</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/src/stealme/client/communication/MessageDispatcher.java</locationURI>
 		</link>
 		<link>
 			<name>src/stealme/client/communication/MessageHandler.java</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/StealMe.Client/src/stealme/client/communication/MessageHandler.java</locationURI>
-		</link>
-		<link>
-			<name>src/stealme/client/communication/MessageParser.java</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/StealMe.Client/src/stealme/client/communication/MessageParser.java</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/src/stealme/client/communication/MessageHandler.java</locationURI>
 		</link>
 		<link>
 			<name>src/stealme/client/communication/PC.java</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/StealMe.Client/src/stealme/client/communication/PC.java</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/src/stealme/client/communication/PC.java</locationURI>
 		</link>
 		<link>
 			<name>src/stealme/client/communication/SmsReceiver.java</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/StealMe.Client/src/stealme/client/communication/SmsReceiver.java</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/src/stealme/client/communication/SmsReceiver.java</locationURI>
 		</link>
 		<link>
 			<name>src/stealme/client/communication/SocketReceiver.java</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/StealMe.Client/src/stealme/client/communication/SocketReceiver.java</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/src/stealme/client/communication/SocketReceiver.java</locationURI>
+		</link>
+		<link>
+			<name>src/stealme/client/networking/ACKResponse.java</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/src/stealme/client/networking/ACKResponse.java</locationURI>
+		</link>
+		<link>
+			<name>src/stealme/client/networking/AuthRequest.java</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/src/stealme/client/networking/AuthRequest.java</locationURI>
+		</link>
+		<link>
+			<name>src/stealme/client/networking/AuthResponse.java</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/src/stealme/client/networking/AuthResponse.java</locationURI>
+		</link>
+		<link>
+			<name>src/stealme/client/networking/CommandRequest.java</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/src/stealme/client/networking/CommandRequest.java</locationURI>
+		</link>
+		<link>
+			<name>src/stealme/client/networking/GetRequest.java</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/src/stealme/client/networking/GetRequest.java</locationURI>
+		</link>
+		<link>
+			<name>src/stealme/client/networking/IntByteConverter.java</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/src/stealme/client/networking/IntByteConverter.java</locationURI>
+		</link>
+		<link>
+			<name>src/stealme/client/networking/LocationMessage.java</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/src/stealme/client/networking/LocationMessage.java</locationURI>
+		</link>
+		<link>
+			<name>src/stealme/client/networking/MsgPackSerializer.java</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/src/stealme/client/networking/MsgPackSerializer.java</locationURI>
+		</link>
+		<link>
+			<name>src/stealme/client/networking/PacketReceiverLogic.java</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/src/stealme/client/networking/PacketReceiverLogic.java</locationURI>
+		</link>
+		<link>
+			<name>src/stealme/client/networking/PingRequest.java</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/src/stealme/client/networking/PingRequest.java</locationURI>
+		</link>
+		<link>
+			<name>src/stealme/client/networking/PingResponse.java</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/src/stealme/client/networking/PingResponse.java</locationURI>
+		</link>
+		<link>
+			<name>src/stealme/client/networking/ProtocolVersionResponse.java</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/src/stealme/client/networking/ProtocolVersionResponse.java</locationURI>
+		</link>
+		<link>
+			<name>src/stealme/client/networking/SetRequest.java</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/src/stealme/client/networking/SetRequest.java</locationURI>
+		</link>
+		<link>
+			<name>src/stealme/client/networking/StatusResponse.java</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/src/stealme/client/networking/StatusResponse.java</locationURI>
+		</link>
+		<link>
+			<name>src/stealme/client/networking/TestRequest.java</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/src/stealme/client/networking/TestRequest.java</locationURI>
+		</link>
+		<link>
+			<name>src/stealme/client/networking/TestResponse.java</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/src/stealme/client/networking/TestResponse.java</locationURI>
+		</link>
+		<link>
+			<name>src/stealme/client/networking/TrackerStateMessage.java</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/src/stealme/client/networking/TrackerStateMessage.java</locationURI>
+		</link>
+		<link>
+			<name>src/stealme/client/networking/TypeResolver.java</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/src/stealme/client/networking/TypeResolver.java</locationURI>
+		</link>
+		<link>
+			<name>src/stealme/client/networking/TypedMessagePackObject.java</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/src/stealme/client/networking/TypedMessagePackObject.java</locationURI>
 		</link>
 		<link>
 			<name>src/stealme/client/communication/Enums/Command.java</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/StealMe.Client/src/stealme/client/communication/Enums/Command.java</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/src/stealme/client/communication/Enums/Command.java</locationURI>
 		</link>
 		<link>
 			<name>src/stealme/client/communication/Enums/GetRequest.java</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/StealMe.Client/src/stealme/client/communication/Enums/GetRequest.java</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/src/stealme/client/communication/Enums/GetRequest.java</locationURI>
 		</link>
 		<link>
 			<name>src/stealme/client/communication/Enums/Message.java</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/StealMe.Client/src/stealme/client/communication/Enums/Message.java</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/src/stealme/client/communication/Enums/Message.java</locationURI>
 		</link>
 		<link>
 			<name>src/stealme/client/communication/Enums/SetRequest.java</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/StealMe.Client/src/stealme/client/communication/Enums/SetRequest.java</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/StealME.Client/src/stealme/client/communication/Enums/SetRequest.java</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
