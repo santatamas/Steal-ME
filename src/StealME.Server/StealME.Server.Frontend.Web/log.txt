@@ -1,1 +1,7 @@
 [StealME.Service-02.09.2012 14:29:04] Command added: CMD.ACTIVATE
+[StealME.Service-5/23/2014 2:16:11 AM] CommandType added: CMD.DEACTIVATE
+[StealME.Service-5/23/2014 2:35:26 AM] CommandType added: CMD.DEACTIVATE
+[StealME.Service-5/23/2014 2:35:52 AM] CommandType added: CMD.ACTIVATE
+[StealME.Service-5/23/2014 2:36:18 AM] CommandType added: CMD.SIGNAL
+[StealME.Service-5/23/2014 2:36:41 AM] CommandType added: CMD.DEACTIVATE
+[StealME.Service-5/23/2014 2:41:51 AM] CommandType added: CMD.ACTIVATE

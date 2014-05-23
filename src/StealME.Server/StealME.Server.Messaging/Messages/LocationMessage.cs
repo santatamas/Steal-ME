@@ -2,12 +2,12 @@
 {
     public class LocationMessage
     {
-        public double Latitude;
-        public double Longitude;
-        public int MNC;
-        public int MCC;
-        public int LAC;
-        public int CellID;
-        public int LatestRssi;
+        public string Latitude;
+        public string Longitude;
+        public string MNC;
+        public string MCC;
+        public string LAC;
+        public string CellID;
+        public string LatestRssi;
     }
 }

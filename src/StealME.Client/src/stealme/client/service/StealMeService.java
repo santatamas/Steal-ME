@@ -128,7 +128,7 @@ public class StealMeService extends Service implements IAccelerometerListener,
 		
 		this.setInterval(Integer.parseInt(settings.getString("minimum_location_polling_interval", "10000")));
 		this.setRemoteNumber(settings.getString("controller_phone", ""));
-		this.setTrackingIP(settings.getString("tracker_server_ip", "192.168.0.105"));
+		this.setTrackingIP(settings.getString("tracker_server_ip", "192.168.0.191"));
 		this.setTrackingPort(settings.getString("tracker_server_port", "4444"));
 		this.setUseGPS(settings.getBoolean("use_gps", true));
 		this.setUseNetwork(settings.getBoolean("use_network_provider", true));
@@ -299,15 +299,14 @@ public class StealMeService extends Service implements IAccelerometerListener,
 	private LocationMessage getTcpMessage(Location location, CellLocationInfo latestCellLoc)
 	{
 		TelephonyManager telMan = (TelephonyManager) getContext().getSystemService(Context.TELEPHONY_SERVICE);
-		LocationMessage loc = new LocationMessage(){{
-			Latitude = _lastKnownLocation.getLatitude();
-			Longitude = _lastKnownLocation.getLongitude();
-			MNC = latestCellLocInfo.mnc;
-			MCC = latestCellLocInfo.mcc;
-			LAC = latestCellLocInfo.lac;
-			CellID = latestCellLocInfo.cellId;
-			LatestRssi = latestCellLocInfo.LatestRssi;
-		}};
+		LocationMessage loc = new LocationMessage();
+		loc.Latitude = Double.toString(_lastKnownLocation.getLatitude());
+		loc.Longitude = Double.toString(_lastKnownLocation.getLongitude());
+		loc.MNC = Integer.toString(latestCellLocInfo.mnc);
+		loc.MCC = Integer.toString(latestCellLocInfo.mcc);
+		loc.LAC = Integer.toString(latestCellLocInfo.lac);
+		loc.CellID = Integer.toString(latestCellLocInfo.cellId);
+		loc.LatestRssi = Integer.toString(latestCellLocInfo.LatestRssi);
 			
 		return  loc;
 	}

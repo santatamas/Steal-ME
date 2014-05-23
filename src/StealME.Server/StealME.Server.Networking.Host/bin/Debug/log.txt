@@ -1,0 +1,58 @@
+[StealME.Service-5/23/2014 1:55:59 AM] Position inserted.
+[StealME.Service-5/23/2014 1:56:09 AM] Position inserted.
+[StealME.Service-5/23/2014 1:56:19 AM] Position inserted.
+[StealME.Service-5/23/2014 1:56:29 AM] Position inserted.
+[StealME.Service-5/23/2014 1:56:39 AM] Position inserted.
+[StealME.Service-5/23/2014 1:56:49 AM] Position inserted.
+[StealME.Service-5/23/2014 1:56:59 AM] Position inserted.
+[StealME.Service-5/23/2014 1:57:09 AM] Position inserted.
+[StealME.Service-5/23/2014 1:57:19 AM] Position inserted.
+[StealME.Service-5/23/2014 1:57:29 AM] Position inserted.
+[StealME.Service-5/23/2014 1:57:39 AM] Position inserted.
+[StealME.Service-5/23/2014 1:57:49 AM] Position inserted.
+[StealME.Service-5/23/2014 1:57:59 AM] Position inserted.
+[StealME.Service-5/23/2014 1:58:09 AM] Position inserted.
+[StealME.Service-5/23/2014 1:58:19 AM] Position inserted.
+[StealME.Service-5/23/2014 1:58:29 AM] Position inserted.
+[StealME.Service-5/23/2014 1:58:39 AM] Position inserted.
+[StealME.Service-5/23/2014 1:58:49 AM] Position inserted.
+[StealME.Service-5/23/2014 1:58:59 AM] Position inserted.
+[StealME.Service-5/23/2014 1:59:09 AM] Position inserted.
+[StealME.Service-5/23/2014 1:59:19 AM] Position inserted.
+[StealME.Service-5/23/2014 1:59:29 AM] Position inserted.
+[StealME.Service-5/23/2014 1:59:39 AM] Position inserted.
+[StealME.Service-5/23/2014 1:59:49 AM] Position inserted.
+[StealME.Service-5/23/2014 1:59:59 AM] Position inserted.
+[StealME.Service-5/23/2014 2:00:09 AM] Position inserted.
+[StealME.Service-5/23/2014 2:06:32 AM] Position inserted.
+[StealME.Service-5/23/2014 2:08:36 AM] Position inserted.
+[StealME.Service-5/23/2014 2:08:54 AM] Position inserted.
+[StealME.Service-5/23/2014 2:11:29 AM] Position inserted.
+[StealME.Service-5/23/2014 2:11:53 AM] Position inserted.
+[StealME.Service-5/23/2014 2:34:18 AM] CommandType deleted: CMD.DEACTIVATE
+[StealME.Service-5/23/2014 2:34:18 AM] CommandType deleted: CMD.DEACTIVATE
+[StealME.Service-5/23/2014 2:34:18 AM] CommandType deleted: CMD.DEACTIVATE
+[StealME.Service-5/23/2014 2:34:18 AM] CommandType deleted: CMD.DEACTIVATE
+[StealME.Service-5/23/2014 2:34:18 AM] CommandType deleted: CMD.SIGNAL
+[StealME.Service-5/23/2014 2:34:18 AM] CommandType deleted: CMD.DEACTIVATE
+[StealME.Service-5/23/2014 2:34:51 AM] Position inserted.
+[StealME.Service-5/23/2014 2:35:01 AM] Position inserted.
+[StealME.Service-5/23/2014 2:35:11 AM] Position inserted.
+[StealME.Service-5/23/2014 2:35:21 AM] Position inserted.
+[StealME.Service-5/23/2014 2:35:31 AM] Position inserted.
+[StealME.Service-5/23/2014 2:35:41 AM] Position inserted.
+[StealME.Service-5/23/2014 2:35:42 AM] CommandType deleted: CMD.DEACTIVATE
+[StealME.Service-5/23/2014 2:36:14 AM] CommandType deleted: CMD.ACTIVATE
+[StealME.Service-5/23/2014 2:36:35 AM] Position inserted.
+[StealME.Service-5/23/2014 2:36:45 AM] CommandType deleted: CMD.SIGNAL
+[StealME.Service-5/23/2014 2:36:45 AM] CommandType deleted: CMD.DEACTIVATE
+[StealME.Service-5/23/2014 2:40:52 AM] Position inserted.
+[StealME.Service-5/23/2014 2:42:04 AM] CommandType deleted: CMD.ACTIVATE
+[StealME.Service-5/23/2014 2:44:15 AM] Position inserted.
+[StealME.Service-5/23/2014 2:44:25 AM] Position inserted.
+[StealME.Service-5/23/2014 2:44:35 AM] Position inserted.
+[StealME.Service-5/23/2014 2:44:45 AM] Position inserted.
+[StealME.Service-5/23/2014 2:44:55 AM] Position inserted.
+[StealME.Service-5/23/2014 2:45:05 AM] Position inserted.
+[StealME.Service-5/23/2014 2:45:15 AM] Position inserted.
+[StealME.Service-5/23/2014 2:45:25 AM] Position inserted.

@@ -4,11 +4,11 @@ import org.msgpack.annotation.Message;
 
 @Message
 public class LocationMessage {
-	 public double Latitude;
-     public double Longitude;
-     public int MNC;
-     public int MCC;
-     public int LAC;
-     public int CellID;
-     public int LatestRssi;
+	 public String Latitude;
+     public String Longitude;
+     public String MNC;
+     public String MCC;
+     public String LAC;
+     public String CellID;
+     public String LatestRssi;
 }

@@ -21,3 +21,4 @@ c:\Users\Thomas\Documents\GitHub\Steal-ME\src\StealME.Server\StealME.Server.Data
 c:\Users\Thomas\Documents\GitHub\Steal-ME\src\StealME.Server\StealME.Server.Data\bin\Debug\StealME.Server.Data.pdb
 c:\Users\Thomas\Documents\GitHub\Steal-ME\src\StealME.Server\StealME.Server.Data\obj\Debug\StealME.Server.Data.dll
 c:\Users\Thomas\Documents\GitHub\Steal-ME\src\StealME.Server\StealME.Server.Data\obj\Debug\StealME.Server.Data.pdb
+C:\Users\Thomas\Documents\GitHub\Steal-ME\src\StealME.Server\StealME.Server.Data\obj\Debug\StealME.Server.Data.csprojResolveAssemblyReference.cache

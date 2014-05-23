@@ -8,7 +8,7 @@
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/set_tab_remote_control">
         <EditTextPreference android:title="@string/set_controller_phone" android:key="controller_phone"/>
-        <EditTextPreference android:title="@string/set_tracking_ip" android:key="tracker_server_ip" android:defaultValue="192.168.0.105"/>
+        <EditTextPreference android:title="@string/set_tracking_ip" android:key="tracker_server_ip" android:defaultValue="192.168.0.191"/>
         <CheckBoxPreference android:key="enable_sms" android:title="@string/set_enable_sms" android:defaultValue="false"/>
         <EditTextPreference android:title="@string/set_tracking_port" android:key="tracker_server_port" android:defaultValue="4444"/>	
     </PreferenceCategory>

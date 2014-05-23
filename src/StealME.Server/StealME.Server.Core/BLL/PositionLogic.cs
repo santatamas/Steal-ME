@@ -26,7 +26,7 @@
         {
             try
             {
-                position.TrackerId = tracker.Id;
+                position.TrackerId = new Guid("5B9BA752-284E-4B85-BB80-992D610CD806");
                 position.Id = Guid.NewGuid();
                 position.CreationDate = DateTime.Now;
 
